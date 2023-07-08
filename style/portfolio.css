@@ -7,6 +7,7 @@ body{
 nav{
   display: flex;
   justify-content: space-between;
+  margin: 0, 200px;
 }
 .text-primary{
   color: tomato;
@@ -37,4 +38,17 @@ nav a{
   font-size: 20px;
   font-weight: 700;
   padding: 15px 35px;
+}
+/* header styles */
+.header{
+  background-color: #f9d9c3;
+}
+.banner{
+  padding: 30px 30px 30px150px;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic{
+  width: 300px;
+  border-radius: 65%;
 }
